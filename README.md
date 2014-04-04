@@ -10,4 +10,4 @@ __kinetic_parser.pl__
 * No additional packages is required.
 * Sample files representing time and plate formats are also included
 
-Usage: <code>$kinetic_perser.pl <INFILE> >OUTFILE<\code>
+Usage: `$kinetic_perser.pl <INFILE> >OUTFILE`
