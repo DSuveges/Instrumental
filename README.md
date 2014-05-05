@@ -23,3 +23,7 @@ __FSEC_parser.pl__
 
 Usage: `$FSEC_parser.pl -p [points to keep] -o [output filename]`
 
+__FPLC_parser.pl__
+* This script processes the chromatographic trace exported by the AKTA system Unicorn software
+* Often multiple gelfiltrations are saved into 
+* The aim of the program is to split a single trace into pieces corresponding to individual injections.
