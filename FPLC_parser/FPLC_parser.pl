@@ -8,7 +8,7 @@
 # Subsequent columns are the traces of different injections.
 
 # usage:
-    # >FPLC_Parser_v1.1.pl <INFILE> > <OUTFILE>
+    # >FPLC_Parser.pl <INFILE> > <OUTFILE>
     # Infile is the exported ASCII format generatd by Unicorn software.
     # Output is a list where the first column is the time (in minutes), the outher columns are the absorbance values of
     # Each injections (in mAU units).
@@ -23,7 +23,7 @@
     # the input and output secification is quite low-end, but works just fine.
 
 ##### Comment about the algorytm ##############################################
-## It might sounds reasonable to do the splitting on the flight, but that may cause dataloss:
+## It might sounds reasonable to do the splitting on the fly, but that may cause dataloss:
 ## You can start the next run before finishing the datacollection of the previous run
 ## This is possible, as you can count on the void volume of the colunms
 ###############################################################################
